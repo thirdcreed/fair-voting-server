@@ -1,0 +1,31 @@
+{
+  "name": "fair-voting-server",
+  "version": "1.0.0",
+  "description": "Server for fair-vote-profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thirdcreed/fair-voting-server.git"
+  },
+  "keywords": [
+    "vote",
+    "api",
+    "condercet",
+    "borda",
+    "black",
+    "schulze"
+  ],
+  "author": "thirdcreed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thirdcreed/fair-voting-server/issues"
+  },
+  "homepage": "https://github.com/thirdcreed/fair-voting-server",
+  "dependencies": {
+    "express": "^4.10.6",
+    "fair-vote-profile": "0.0.6"
+  }
+}
