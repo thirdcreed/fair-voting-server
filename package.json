@@ -26,6 +26,6 @@
   "homepage": "https://github.com/thirdcreed/fair-voting-server",
   "dependencies": {
     "express": "^4.10.6",
-    "fair-vote-profile": "0.0.6"
+    "fair-vote-profile": "0.0.7"
   }
 }
