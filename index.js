@@ -26,6 +26,12 @@ app.post('/election/:election/user/:user/vote', function (req, res) {
   res.send("did it : )");
 });
 
+app.post('users/:user', function (req,res){
+  var userName = req.param.user;
+  console.log(userName);
+  res.send("screw you, " + userName);
+});
+
 
 app.get('/election/:election/score/:rule',function(req,res){
   var electionName = req.params.election;
