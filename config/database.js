@@ -1,3 +1,3 @@
 module.exports={
-  "db":"mongopath"
-}
+"url":"user:pass@proximus.modulusmongo.net:27017/i5qiwypY"
+};
